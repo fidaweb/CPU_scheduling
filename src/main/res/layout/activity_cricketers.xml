@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/recycler_cricketers"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>-->
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:id="@+id/chart"
+        ></com.github.mikephil.charting.charts.BarChart>
+
+    <TextView
+        android:id="@+id/average_waiting_time"
+        android:layout_width="match_parent"
+        android:background="@drawable/round_primary"
+        android:padding="10dp"
+        android:layout_below="@+id/chart"
+        android:layout_height="wrap_content"
+        android:text="Average Waiting Time"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"></TextView>
+
+
+</RelativeLayout>
